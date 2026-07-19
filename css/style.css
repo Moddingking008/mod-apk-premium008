@@ -223,3 +223,13 @@ color:#00ff88;
 font-size:14px;
 color:#666;
 }
+.app-details img{
+width:150px;
+height:150px;
+object-fit:contain;
+background:#fff;
+padding:15px;
+border-radius:20px;
+display:block;
+margin:20px auto;
+}
