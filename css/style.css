@@ -233,3 +233,17 @@ border-radius:20px;
 display:block;
 margin:20px auto;
 }
+.app-details{
+text-align:center;
+max-width:600px;
+margin:auto;
+}
+
+.app-details img{
+width:150px;
+height:150px;
+max-width:100%;
+object-fit:contain;
+display:block;
+margin:20px auto;
+}
