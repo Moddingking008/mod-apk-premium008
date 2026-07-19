@@ -49,7 +49,9 @@ container.innerHTML+=`
 <div class="card-content">
 <h3>${app.name}</h3>
 <p>${app.version}</p>
-<a href="${app.link}" class="btn">Download</a>
+<a href="app.html?app=${encodeURIComponent(app.name)}" class="btn">
+View Details
+</a>
 </div>
 </div>
 `;
