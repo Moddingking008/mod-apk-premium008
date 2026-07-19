@@ -130,3 +130,52 @@ font-size:30px;
 }
 
   }
+.categories{
+padding:30px 20px;
+text-align:center;
+}
+
+.category-list{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-top:20px;
+}
+
+.category-list button{
+padding:10px 18px;
+border:none;
+border-radius:30px;
+background:#222;
+color:#fff;
+cursor:pointer;
+transition:.3s;
+}
+
+.category-list button:hover{
+background:#00ff88;
+color:#000;
+}
+
+.telegram{
+text-align:center;
+padding:50px 20px;
+background:#151515;
+}
+
+.join-btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 30px;
+background:#0088cc;
+color:#fff;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+transition:.3s;
+}
+
+.join-btn:hover{
+transform:scale(1.05);
+}
