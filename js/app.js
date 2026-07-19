@@ -16,6 +16,7 @@ document.getElementById("appIcon").src = app.logo;
 document.getElementById("appName").textContent = app.name;
 document.getElementById("appVersion").textContent = "Version : " + app.version;
 document.getElementById("appSize").textContent = "Size : " + app.size;
-document.getElementById("downloadBtn").href = app.download;
+document.getElementById("downloadBtn").href =
+"download.html?link=" + encodeURIComponent(app.download);
 
 });
