@@ -113,6 +113,16 @@ margin-bottom:0;
 }
 
 
+/* TELEGRAM GAP */
+
+.telegram-gap{
+width:100%;
+height:25px;
+display:block;
+background:linear-gradient(135deg,#00ff88,#0099ff);
+}
+
+
 /* JOIN BUTTON */
 
 .join-btn{
@@ -136,7 +146,7 @@ transform:scale(1.05);
 
 .latest-section{
 padding:20px;
-margin-top:25px !important;
+margin-top:0 !important;
 background:#0f0f0f;
 }
 
@@ -282,9 +292,13 @@ padding:40px 15px;
 margin:15px 15px 0 !important;
 }
 
-.latest-section{
-padding:20px 15px;
-margin-top:25px !important;
+.telegram-gap{
+height:25px;
 }
 
+.latest-section{
+padding:20px 15px;
+margin-top:0 !important;
 }
+
+  }
