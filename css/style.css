@@ -250,3 +250,11 @@ object-fit:contain;
 display:block;
 margin:20px auto;
 }
+
+.premium-box{
+background:#151515;
+padding:30px 20px;
+border-radius:25px;
+margin:20px;
+text-align:center;
+}
