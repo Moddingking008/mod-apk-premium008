@@ -45,7 +45,7 @@ color:#fff;
 
 .hero{
 text-align:center;
-padding:0;
+padding:0 0 25px 0;
 margin:0;
 background:linear-gradient(135deg,#00ff88,#0099ff);
 }
@@ -101,7 +101,7 @@ padding:40px 20px;
 background:#151515;
 border-radius:25px;
 overflow:hidden;
-margin:15px 20px 25px;
+margin:15px 20px 0;
 }
 
 .telegram h2{
@@ -277,11 +277,11 @@ width:100%;
 
 .telegram{
 padding:40px 15px;
-margin:15px 15px 25px;
+margin:15px 15px 0;
 }
 
 .latest-section{
 padding:20px 15px;
 }
 
-  }
+}
