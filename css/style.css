@@ -39,7 +39,7 @@ color:#fff;
 
 .hero{
 text-align:center;
-padding:15px 20px;
+padding:0 20px 15px;
 background:linear-gradient(135deg,#00ff88,#0099ff);
 }
 
@@ -115,24 +115,11 @@ transition:.3s;
 background:#00cc6a;
 }
 
-@media(max-width:768px){
 
-header{
-flex-direction:column;
-gap:15px;
-}
+/* CATEGORIES */
 
-#search{
-width:100%;
-}
-
-.hero h1{
-font-size:30px;
-}
-
-  }
 .categories{
-padding:15px 20px;
+padding:15px 20px 10px;
 text-align:center;
 }
 
@@ -141,7 +128,7 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 gap:12px;
-margin-top:20px;
+margin-top:15px;
 }
 
 .category-list button{
@@ -159,22 +146,48 @@ background:#00ff88;
 color:#000;
 }
 
+
+/* TELEGRAM BOX */
+
 .telegram{
 text-align:center;
-padding:50px 20px;
+padding:40px 20px;
 background:#151515;
 border-radius:25px;
 overflow:hidden;
-margin:20px;
+margin:15px 20px;
 }
+
+.telegram h2{
+margin-bottom:20px;
+}
+
+.telegram p{
+margin-bottom:0;
+}
+
+
+/* PREMIUM BOX */
 
 .premium-box{
 background:#151515;
 padding:30px 20px;
 border-radius:25px;
-margin:20px;
+margin:15px 20px;
 text-align:center;
 }
+
+.premium-box h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.premium-box p{
+font-size:18px;
+}
+
+
+/* JOIN BUTTON */
 
 .join-btn{
 display:inline-block;
@@ -191,8 +204,12 @@ transition:.3s;
 .join-btn:hover{
 transform:scale(1.05);
 }
+
+
+/* FOOTER */
+
 footer{
-margin-top:60px;
+margin-top:30px;
 background:#111;
 border-top:1px solid #222;
 }
@@ -234,16 +251,10 @@ color:#00ff88;
 font-size:14px;
 color:#666;
 }
-.app-details img{
-width:150px;
-height:150px;
-object-fit:contain;
-background:#fff;
-padding:15px;
-border-radius:20px;
-display:block;
-margin:20px auto;
-}
+
+
+/* APP DETAILS */
+
 .app-details{
 text-align:center;
 max-width:600px;
@@ -255,6 +266,47 @@ width:150px;
 height:150px;
 max-width:100%;
 object-fit:contain;
+background:#fff;
+padding:15px;
+border-radius:20px;
 display:block;
 margin:20px auto;
+}
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+#search{
+width:100%;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.premium-box h1{
+font-size:32px;
+}
+
+.premium-box p{
+font-size:18px;
+}
+
+.telegram{
+padding:40px 15px;
+margin:15px 20px;
+}
+
+.premium-box{
+padding:30px 15px;
+margin:15px 20px;
+}
+
 }
