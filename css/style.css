@@ -310,3 +310,17 @@ margin:15px 20px;
 }
 
 }
+
+.hero{
+padding:0 !important;
+margin:0 !important;
+}
+
+.premium-box{
+margin-bottom:0 !important;
+}
+
+.hero + section{
+padding-top:0 !important;
+margin-top:0 !important;
+}
