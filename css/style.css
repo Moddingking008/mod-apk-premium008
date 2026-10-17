@@ -10,6 +10,9 @@ background:#0f0f0f;
 color:#fff;
 }
 
+
+/* HEADER */
+
 header{
 display:flex;
 justify-content:space-between;
@@ -37,20 +40,18 @@ background:#262626;
 color:#fff;
 }
 
+
+/* HERO */
+
 .hero{
 text-align:center;
-padding:0 20px 15px;
+padding:0;
+margin:0;
 background:linear-gradient(135deg,#00ff88,#0099ff);
 }
 
-.hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
 
-.hero p{
-font-size:18px;
-}
+/* COMMON */
 
 section{
 padding:20px;
@@ -58,6 +59,83 @@ padding:20px;
 
 h2{
 margin-bottom:20px;
+}
+
+
+/* CATEGORIES */
+
+.categories{
+padding:15px 20px 10px;
+text-align:center;
+}
+
+.category-list{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+margin-top:15px;
+}
+
+.category-list button{
+padding:10px 18px;
+border:none;
+border-radius:30px;
+background:#222;
+color:#fff;
+cursor:pointer;
+transition:.3s;
+}
+
+.category-list button:hover{
+background:#00ff88;
+color:#000;
+}
+
+
+/* TELEGRAM */
+
+.telegram{
+text-align:center;
+padding:40px 20px;
+background:#151515;
+border-radius:25px;
+overflow:hidden;
+margin:15px 20px 0;
+}
+
+.telegram h2{
+margin-bottom:20px;
+}
+
+.telegram p{
+margin-bottom:0;
+}
+
+
+/* JOIN BUTTON */
+
+.join-btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 30px;
+background:#0088cc;
+color:#fff;
+text-decoration:none;
+border-radius:12px;
+font-weight:bold;
+transition:.3s;
+}
+
+.join-btn:hover{
+transform:scale(1.05);
+}
+
+
+/* LATEST APPS */
+
+.latest-section{
+padding:20px;
 }
 
 .apps{
@@ -113,96 +191,6 @@ transition:.3s;
 
 .btn:hover{
 background:#00cc6a;
-}
-
-
-/* CATEGORIES */
-
-.categories{
-padding:15px 20px 10px;
-text-align:center;
-}
-
-.category-list{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:12px;
-margin-top:15px;
-}
-
-.category-list button{
-padding:10px 18px;
-border:none;
-border-radius:30px;
-background:#222;
-color:#fff;
-cursor:pointer;
-transition:.3s;
-}
-
-.category-list button:hover{
-background:#00ff88;
-color:#000;
-}
-
-
-/* TELEGRAM BOX */
-
-.telegram{
-text-align:center;
-padding:40px 20px;
-background:#151515;
-border-radius:25px;
-overflow:hidden;
-margin:15px 20px;
-}
-
-.telegram h2{
-margin-bottom:20px;
-}
-
-.telegram p{
-margin-bottom:0;
-}
-
-
-/* PREMIUM BOX */
-
-.premium-box{
-background:#151515;
-padding:30px 20px;
-border-radius:25px;
-margin:15px 20px;
-text-align:center;
-}
-
-.premium-box h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.premium-box p{
-font-size:18px;
-}
-
-
-/* JOIN BUTTON */
-
-.join-btn{
-display:inline-block;
-margin-top:20px;
-padding:14px 30px;
-background:#0088cc;
-color:#fff;
-text-decoration:none;
-border-radius:12px;
-font-weight:bold;
-transition:.3s;
-}
-
-.join-btn:hover{
-transform:scale(1.05);
 }
 
 
@@ -287,40 +275,13 @@ gap:15px;
 width:100%;
 }
 
-.hero h1{
-font-size:30px;
-}
-
-.premium-box h1{
-font-size:32px;
-}
-
-.premium-box p{
-font-size:18px;
-}
-
 .telegram{
 padding:40px 15px;
-margin:15px 20px;
+margin:15px 15px 0;
 }
 
-.premium-box{
-padding:30px 15px;
-margin:15px 20px;
+.latest-section{
+padding:20px 15px;
 }
 
-}
-
-.hero{
-padding:0 !important;
-margin:0 !important;
-}
-
-.premium-box{
-margin-bottom:0 !important;
-}
-
-.hero + section{
-padding-top:0 !important;
-margin-top:0 !important;
-}
+  }
