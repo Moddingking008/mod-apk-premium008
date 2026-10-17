@@ -41,6 +41,8 @@ color:#fff;
 text-align:center;
 padding:70px 20px;
 background:linear-gradient(135deg,#00ff88,#0099ff);
+border-radius:25px;
+overflow:hidden;
 }
 
 .hero h1{
