@@ -101,7 +101,7 @@ padding:40px 20px;
 background:#151515;
 border-radius:25px;
 overflow:hidden;
-margin:15px 20px 0;
+margin:15px 20px 25px;
 }
 
 .telegram h2{
@@ -277,7 +277,7 @@ width:100%;
 
 .telegram{
 padding:40px 15px;
-margin:15px 15px 0;
+margin:15px 15px 25px;
 }
 
 .latest-section{
