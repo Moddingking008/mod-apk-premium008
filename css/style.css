@@ -168,6 +168,14 @@ overflow:hidden;
 margin:20px;
 }
 
+.premium-box{
+background:#151515;
+padding:30px 20px;
+border-radius:25px;
+margin:20px;
+text-align:center;
+}
+
 .join-btn{
 display:inline-block;
 margin-top:20px;
@@ -249,12 +257,4 @@ max-width:100%;
 object-fit:contain;
 display:block;
 margin:20px auto;
-}
-
-.premium-box{
-background:#151515;
-padding:30px 20px;
-border-radius:25px;
-margin:20px;
-text-align:center;
 }
